@@ -1,0 +1,35 @@
+/* Variables */
+:root{
+  --color-base:#FE4400;
+}
+
+.box-register {
+  background-color: white;
+  font-size: 14px;
+  line-height: 17.07px;
+  width: 100%;
+  max-width: 1480px;
+}
+
+ .main-register{
+  display: flex;
+  justify-content: center;
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.star-red{
+  margin-left: 2px;
+  color: red;
+}
+
+.label{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input {
+  margin-bottom: 10px;
+  border-color: #C4C4C4;
+  border-radius: 8.3px;
+}

@@ -1,0 +1,74 @@
+Arguments: 
+  /Users/eli/.asdf/installs/nodejs/16.14.2/bin/node /opt/homebrew/bin/yarn add @chakra-ui/react @chakra-ui/core @emotion
+
+PATH: 
+  /Users/eli/.asdf/plugins/nodejs/shims:/Users/eli/.asdf/installs/nodejs/16.14.2/.npm/bin:/Users/eli/.asdf/installs/nodejs/16.14.2/bin:”/Users/xyz/miniforge3/bin:/Users/eli/.local/bin:/Users/eli/.cargo/bin:/Users/eli/.asdf/shims:/Users/eli/.asdf/bin:/usr/local/share/npm/bin:/usr/local/opt/node@14/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:”/Users/xyz/miniforge3/bin:/Users/eli/.local/bin:/Users/eli/.cargo/bin:/Users/eli/.zinit/polaris/bin:/usr/local/share/npm/bin:/usr/local/opt/node@14/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/eli/.fig/bin:/Users/eli/Android/Sdk/emulator:/Users/eli/Android/Sdk/tools:/Users/eli/Android/Sdk/tools/bin:/Users/eli/Android/Sdk/platform-tools”:/Users/eli/.local/bin:/Users/eli/.local/bin:/Users/eli/Android/Sdk/emulator:/Users/eli/Android/Sdk/tools:/Users/eli/Android/Sdk/tools/bin:/Users/eli/Android/Sdk/platform-tools”
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@emotion: Request "https://registry.yarnpkg.com/@emotion" returned a 405
+      at Request.params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66997:18)
+      at Request.self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "technicalshare",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.3",
+      "@testing-library/react": "^12.1.4",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "5.0.0",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
